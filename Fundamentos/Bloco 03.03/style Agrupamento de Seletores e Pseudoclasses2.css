@@ -1,0 +1,33 @@
+div:hover {
+    border: 5px solid blue
+}
+
+div:nth-of-type(1) {
+    color: blue;
+    font-style: italic;
+}
+
+div:nth-of-type(2) {
+    color: red;
+    border-left-style: double;
+}
+
+div:nth-of-type(3) {
+    color: blueviolet;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+div:nth-of-type(4) {
+    color: yellow;
+    font-weight: bold;
+}
+
+div:nth-of-type(5) {
+    color: green;
+    font-family: sans-serif;
+}
+
+div:nth-last-child(odd) {
+    font-style: italic;
+}
