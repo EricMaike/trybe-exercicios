@@ -64,4 +64,5 @@ console.log(vinteCinco);
 
 for (let index6 = 0; index6 < vinteCinco.length; index6 += 1) {
     console.log(vinteCinco[index6] / 2);
-};
+}
+
