@@ -1,0 +1,51 @@
+body {
+    background-color: aqua;
+}
+
+header{
+    text-align: center;
+    padding: 15px;
+    background-color: green;
+}
+
+ul li {
+    display: inline;
+    text-align: center;
+    margin: 25px;
+}
+
+img {
+    height: 250px;
+    margin: 5px;
+}
+
+#img-ataque {
+    float: left;
+    top: 30cm;
+
+}
+
+#reproducao {
+    float: left;
+}
+
+#conclusao {
+    float: left;
+    display: block;
+    margin-right: 70%;
+    margin-top: 30px;
+
+}
+
+#referencia {
+    float: left;
+    display: block;
+    margin-right: 70%;
+    margin-top: 30px;
+}
+
+#creditos {
+    float: left;
+    display: block;
+    margin-right: 70%;
+    margin-top: 30px;
