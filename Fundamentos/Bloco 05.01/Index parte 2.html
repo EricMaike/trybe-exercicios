@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p id="paragraph" class="paragrafo">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p id="second-paragraph" class="paragrafo">Segundo parágrafo!</p>
+    </header>
+    <script>
+      const paragraph = document.getElementById("paragraph");
+      paragraph.style.color = "red";
+      document.getElementById("page-title").innerText = "Velozes e Furiosos";
+      document.getElementById('second-paragraph').innerText = 'Filme de ação e aventura com carros.'
+      document.getElementById('subtitle').innerText = 'Descrição'
+      let paragrafo = document.querySelector('p');
+      paragrafo.style.color = 'blue';
+      let subtitle = document.querySelector('h4');
+      subtitle.style.color = 'yellow';
+    </script>
+  </body>
+</html>
