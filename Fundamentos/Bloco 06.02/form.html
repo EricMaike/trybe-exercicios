@@ -7,6 +7,7 @@
     <title>TrybeTrip</title>
     <link rel="stylesheet" href="bootstrap-5.2.0-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
 </head>
 <body>
     <header class="h1 display-4 text-muted">TrybeTrip - Concorra a uma viagem dos sonhos</header>
@@ -50,9 +51,9 @@
 
         <br><br>
 
-    <div class="form-group" id="date">
+    <div class="form-group">
         <label for="">Data:
-            <input class="form-control" type="date">
+            <input class="form-control" type="date" class="data" id="datepicker">
         </label>
     </div>
 
@@ -73,7 +74,7 @@
     </div>
 
     </form>
-
+    <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
     <script src="form.js"></script>
 </body>
 </html>
