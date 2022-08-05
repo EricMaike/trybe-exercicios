@@ -1,0 +1,46 @@
+header {
+    text-align: center;
+    font-size: 25px;
+}
+
+#dados {
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+#name {
+    margin-right: 20px;
+}
+
+.dest {
+    margin-right: 5px;
+}
+
+#destinos {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+#explication {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+#date {
+    margin-left: 20px;
+}
+
+#select {
+    margin-left: 20px; 
+}
+
+#buttons {
+    margin-left: 240px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#limpar {
+    margin-left: 10px;
+}
