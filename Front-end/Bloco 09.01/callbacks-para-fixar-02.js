@@ -12,6 +12,7 @@ const getUser = (callback) => {
     };
 
     // Dica: use esse `console.log()` abaixo para imprimir o resultado na tela.
+    console.log(user);
     console.log(callback(user));
   }, delay());
 };
